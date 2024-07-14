@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>TIC TAC TOE</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="favicon tictactoe.png" type="image/x-icon">
+    </head>
+    <body>
+        <h1>TIC TAC TOE</h1>
+        <p>GAME STARTS BY JUST CLICK ON THE BOX
+        <br><br>First player as <span class="pla1">Alice X </span>and Second player as <span class="pla2"> Bob 0</span>
+        </p>
+        <br>
+        <div class="des">
+            <div class="row">
+                <input type="text" name="1" id="t1" class="cell" onclick="func3();func();" readonly>
+                <input type="text" name="2" id="t2" class="cell" onclick="func4();func();" readonly>
+                <input type="text" name="3" id="t3" class="cell" onclick="func5();func();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" name="4" id="t4" class="cell" onclick="func6();func();" readonly>
+                <input type="text" name="5" id="t5" class="cell" onclick="func7();func();" readonly>
+                <input type="text" name="6" id="t6" class="cell" onclick="func8();func();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" name="7" id="t7" class="cell" onclick="func9();func();" readonly>
+                <input type="text" name="8" id="t8" class="cell" onclick="func10();func();" readonly>
+                <input type="text" name="9" id="t9" class="cell" onclick="func11();func();" readonly>
+            </div>
+        </div>
+        <br><br><br>
+        <button id="btn" onclick="func2()">RESET</button>
+        <p id="print">
+        </p>
+        <script src="script.js"></script>
+    </body>
+</html>
